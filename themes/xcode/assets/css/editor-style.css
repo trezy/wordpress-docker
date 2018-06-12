@@ -1,0 +1,268 @@
+/********************************************************************************************************************
+
+Table of Contents:
+
+1. TypoGraphy
+2. Post Formates
+3. RTL
+
+/*====================================
+=            1. TypoGraphy            =
+====================================*/
+body {
+  font-size: 1.6rem;
+  word-wrap: break-word;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+h1,
+.h1 {
+  margin: 0;
+  color: #fff;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 6.0rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+h2,
+.h2 {
+  color: #000000;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 3.0rem;
+  font-weight: 400;
+  line-height: 1.1;
+  word-wrap: break-word;
+}
+h2 a,
+.h2 a {
+  display: inline-block;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+h3,
+.h3 {
+  color: #404040;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  word-wrap: break-word;
+}
+h4,
+.h4 {
+  color: #404040;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+h5,
+.h5 {
+  border-radius: 5px 5px 0 0;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  word-wrap: break-word;
+}
+.widget h5{
+  color: #fff;
+  background: #000000;
+  margin: 0;
+  padding: 18px;
+  text-align: center;
+}
+h5 a {
+  color: #fff;
+  word-wrap: break-word;
+}
+h6 {
+  color: #404040;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.1;
+  word-wrap: break-word;
+}
+p {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+p a {
+  position: relative;
+  color: #000000;
+  word-wrap: break-word;
+}
+p a:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #404040;
+  content: "";
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+p a:hover {
+  color: #404040;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+ul li {
+  color: #000000;
+  font-size: 16px;
+}
+ol li{
+  font-size: 16px;
+}
+.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button[type="button"],
+button[type="submit"],
+button[type="reset"] {
+  display: inline-block;
+  padding: 15px;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  color: #000000;
+  background: none;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button[type="button"]:hover,
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  color: #fff;
+  background: #000000;
+}
+.style-nav {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.style-nav li {
+  position: relative;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  font-size: 18px;
+  list-style: none;
+}
+.style-nav li:after {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background: #000000;
+  content: "";
+}
+.styleNav li a {
+  color: #000000;
+}
+table{
+  margin-bottom: 30px;
+}
+table tr td{
+  padding: 5px;
+  font-size: 15px;
+  text-align: left;
+}
+table tr th{
+  text-align: left;
+  padding: 5px;
+}
+.xcode-video{
+  margin-bottom: 20px;
+}
+
+/*================================
+=        2. Post Formates        =
+================================*/
+.gallery-item{
+  margin: 0;
+}
+.gallery:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.gallery{
+  margin: 0 -10px;
+}
+.gallery .gallery-item{
+display: inline-block;
+vertical-align: top;
+margin-bottom: 20px;
+padding: 0 10px;
+text-align: left;
+}
+
+.gallery-item{
+  width: 50%;
+}
+  .gallery-columns-3 .gallery-item{
+    width: 33.333%;
+  }
+  .gallery-columns-1 .gallery-item{
+    width: 100%;
+  }
+  .gallery-columns-2 .gallery-item{
+    width: 50%;
+  }
+  .gallery-columns-4 .gallery-item{
+    width: 25%;
+  }
+  .gallery-columns-5 .gallery-item{
+    width: 20%;
+  }
+  .gallery-columns-6 .gallery-item{
+    width: 16.6667%;
+  }
+  .gallery-columns-7 .gallery-item{
+    width: 14.285%;
+  }
+  .gallery-columns-8 .gallery-item{
+    width: 12.5%;
+  }
+  .gallery-columns-9 .gallery-item{
+    width: 11.1111%;
+  }
+  .wp-caption .wp-caption-text, .gallery-caption {
+    color: #686868 !important;
+}
+.gallery-item .gallery-caption{
+  font-size: 13px;
+}
+/*=====  End of Post Formates  ======*/
+
+/*================================
+=        3. RTL                  =
+================================*/
+.rtl * {
+	text-align: right;
+}

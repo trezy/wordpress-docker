@@ -1,0 +1,347 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-26 16:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:12
+msgid "404"
+msgstr ""
+
+#: 404.php:13
+msgid "This isn&#39;t good. Seems like..."
+msgstr ""
+
+#: 404.php:14
+msgid "You got lost .... Maybe try a search the links below?"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:39
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:55 comments.php:76
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:58 comments.php:79
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:59 comments.php:80
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:93
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:27
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:28
+msgid "Footer Menu"
+msgstr ""
+
+#: search.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: sidebar.php:25 inc/xcode-helper.php:191 inc/customizer/sanitizer.php:24
+#: inc/customizer/theme-settings.php:141
+msgid "Sidebar"
+msgstr ""
+
+#: sidebar.php:27
+msgid ""
+"Please go to Appearance &#8594; Widgets and add some widgets to your sidebar."
+msgstr ""
+
+#: core/xcode-functions.php:30
+msgid "Home"
+msgstr ""
+
+#: core/xcode-functions.php:33
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: core/xcode-functions.php:157
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: core/xcode-functions.php:188
+#, php-format
+msgid "Copyright  %1$s  %2$s"
+msgstr ""
+
+#: core/xcode-functions.php:188
+msgid "https://www.codegearthemes.com"
+msgstr ""
+
+#: core/xcode-functions.php:188
+#, php-format
+msgid "Designed by %s"
+msgstr ""
+
+#: core/xcode-functions.php:189
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: core/xcode-functions.php:189
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/xcode-helper.php:63
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/xcode-helper.php:121
+msgid "About Author"
+msgstr ""
+
+#: inc/xcode-helper.php:141
+msgid "Add Short Descriptiop From Users > Your Profile > Biographical Info"
+msgstr ""
+
+#: inc/xcode-helper.php:145
+msgid "About"
+msgstr ""
+
+#: inc/xcode-helper.php:171
+msgid "Leave a Comment."
+msgstr ""
+
+#: inc/xcode-helper.php:171
+msgid "One comment"
+msgstr ""
+
+#: inc/xcode-helper.php:171
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: inc/xcode-helper.php:193
+msgid "Appears in sidebar of post , pages etc"
+msgstr ""
+
+#: inc/xcode-helper.php:201
+msgid "Newsletter"
+msgstr ""
+
+#: inc/xcode-helper.php:203
+msgid "newsletter area in homepage banner"
+msgstr ""
+
+#: template/content-none.php:14
+msgid "No matches"
+msgstr ""
+
+#: template/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template/content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template/content-page.php:20 template/content-single.php:42
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post
+#: template/content-page.php:32
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: template/content-single.php:37
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer/customizer.php:15
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/general-settings.php:13
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/sanitizer.php:25 inc/customizer/theme-settings.php:142
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer/social-settings.php:13
+msgid "Facebook Url"
+msgstr ""
+
+#: inc/customizer/social-settings.php:14
+msgid "Twitter Url"
+msgstr ""
+
+#: inc/customizer/social-settings.php:15
+msgid "Instagram Url"
+msgstr ""
+
+#: inc/customizer/social-settings.php:16
+msgid "Pinterest Url"
+msgstr ""
+
+#: inc/customizer/social-settings.php:17
+msgid "Linkedin Url"
+msgstr ""
+
+#: inc/customizer/social-settings.php:18
+msgid "Google Plus Url"
+msgstr ""
+
+#: inc/customizer/social-settings.php:19
+msgid "YouTube Url"
+msgstr ""
+
+#: inc/customizer/social-settings.php:26
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer/social-settings.php:37
+msgid "Social Icons/Links"
+msgstr ""
+
+#: inc/customizer/social-settings.php:40
+msgid "leave empty to disable social icon"
+msgstr ""
+
+#: inc/customizer/social-settings.php:62
+msgid "enter full social url"
+msgstr ""
+
+#: inc/customizer/theme-settings.php:13
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer/theme-settings.php:14
+msgid "Customize theme using following settings."
+msgstr ""
+
+#: inc/customizer/theme-settings.php:25 inc/customizer/theme-settings.php:76
+msgid "Header Banner"
+msgstr ""
+
+#: inc/customizer/theme-settings.php:33 inc/customizer/theme-settings.php:42
+msgid "Innerpage Banner"
+msgstr ""
+
+#: inc/customizer/theme-settings.php:51
+msgid "Theme layout"
+msgstr ""
+
+#: inc/customizer/theme-settings.php:80
+msgid "Upload header banner for innerpage."
+msgstr ""
+
+#: inc/customizer/theme-settings.php:96
+msgid "Display the Author Widget?"
+msgstr ""
+
+#: inc/customizer/theme-settings.php:117
+msgid "Author Image"
+msgstr ""
+
+#: inc/customizer/theme-settings.php:121
+msgid "Upload author profile."
+msgstr ""
+
+#: inc/customizer/theme-settings.php:138
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/widgets/xcode-posts-thumbnail.php:17
+msgid "Site&#8217;s Most Recent Posts."
+msgstr ""
+
+#: inc/widgets/xcode-posts-thumbnail.php:19
+msgid "Thumbnails Posts"
+msgstr ""
+
+#: inc/widgets/xcode-posts-thumbnail.php:55
+#: inc/widgets/xcode-posts-thumbnail.php:146
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/xcode-posts-thumbnail.php:151
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/xcode-posts-thumbnail.php:156
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/xcode-posts-thumbnail.php:162
+msgid "Display post date?"
+msgstr ""
+
+#. Name of the theme
+msgid "XCode"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"XCode is a complete Free WordPress theme for online magazines, newspapers "
+"and professional blogs. It is completely built on Customizer tool, which "
+"allows you to customize most of the theme settings easily with live previews."
+" Bold typography, large images and beautiful colors are the main features, "
+"which make it ideal for magazines and newspapers. It is a flexible and "
+"powerful theme, which provides a lot of customization possibilities to the "
+"users. The whole theme structure is built using clean code, making the theme "
+"secure and SEO friendly."
+msgstr ""
+
+#. Author of the theme
+msgid "CodeGearThemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.codegearthemes.com;"
+msgstr ""
